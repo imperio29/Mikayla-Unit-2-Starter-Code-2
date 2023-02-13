@@ -1,0 +1,64 @@
+body{
+ background-color:#FFB6C1;   
+}
+h1 {
+  text-shadow: 5px 2px #aa0144;
+}
+li{font-size : 17px;
+}
+a:hover {
+  background-color: white;
+}
+h2:hover {
+  background-color: pink;
+   
+}
+
+
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1{
+    text-align:center;
+    font-family: "Times New Roman";
+    color:white;
+    }
+
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+    
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2{
+    text-align:center;
+    font-family: "Times New Roman";
+    color: white;
+
+
+}
+
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border: 10px white dotted;
+    margin:5px;
+}
+img {border: 5px solid  #aa0144;
+}
+
+font-family: "Times New Roman";
+{font-size: 15px;}
+
+
+
